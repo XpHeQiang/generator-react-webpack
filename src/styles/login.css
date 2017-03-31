@@ -1,0 +1,143 @@
+body {
+  background: #fff !important;
+}
+input::-webkit-input-placeholder {
+  color: #919191;
+}
+input:focus::-webkit-input-placeholder {
+  color: #919191;
+}
+.login {
+  width: 100%;
+  text-align: center;
+  margin-top: 6rem;
+}
+.login p {
+  font-size: 16px;
+  color: #674e46;
+  margin-top: 1rem;
+}
+.login img {
+  width: 40%;
+}
+.uerMeg {
+  width: 85%;
+  margin: 0 auto;
+}
+.uerMeg .userName,
+.uerMeg .passWord {
+  width: 100%;
+}
+.uerMeg .userName {
+  margin-top: 2.5rem;
+  position: relative;
+}
+.uerMeg .passWord {
+  margin-top: 3rem;
+  position: relative;
+}
+.uerMeg .colse {
+  display: block;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 8.5px;
+  right: 20px;
+  background: url("../images/colse.png") no-repeat 0 center;
+  background-size: 18px 18px;
+}
+.uerMeg .userName input,
+.uerMeg .passWord input {
+  width: 100%;
+  height: 3.5rem;
+  border: 0;
+  border-bottom: 1px solid #e7e7e7;
+  padding-left: 40px;
+  box-sizing: border-box;
+}
+.uerMeg .userName input {
+  background: url("../images/phone.png") no-repeat 18px center;
+  background-size: 9px 16px;
+}
+.uerMeg .passWord input {
+  background: url("../images/pass.png") no-repeat 18px center;
+  background-size: 14px 16px;
+}
+.btn {
+  width: 85%;
+  height: 4.2rem;
+  background: #674e46;
+  border-radius: 4px;
+  color: #fff;
+  border: 0;
+  display: block;
+  margin: 0 auto;
+  margin-top: 4rem;
+  font-size: 1.8rem;
+}
+.PerurType {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5.5rem;
+  position: relative;
+}
+.PerurType p {
+  font-size: 1.2rem;
+  color: #919191;
+  text-align: center;
+}
+.PerurType .type {
+  overflow: hidden;
+  margin-top: 2.5rem;
+}
+.PerurType .type .typeLink {
+  width: 33.3%;
+  float: left;
+  text-align: center;
+}
+.PerurType .type .typeLink img {
+  height: 3rem;
+}
+.PerurType .type .typeLink p::before {
+  content: '';
+  width: 38%;
+  height: 0.1rem;
+  border-bottom: 0.1rem solid #f1f1f1;
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+}
+.PerurType .type .typeLink p::after {
+  content: '';
+  width: 38%;
+  height: 0.1rem;
+  border-bottom: 0.1rem solid #f1f1f1;
+  position: absolute;
+  right: 0;
+  top: 0.7rem;
+}
+.PerurType .type .typeLink p {
+  font-size: 1.4rem;
+  color: #919191;
+}
+@media screen and (max-width: 320px) {
+  .login {
+    margin-top: 5rem;
+  }
+  .userName {
+    margin-top: 2rem;
+  }
+  .passWord {
+    margin-top: 2.5rem;
+  }
+  .userName input,
+  .passWord input {
+    height: 3rem;
+  }
+  .btn {
+    margin-top: 3rem;
+  }
+  .PerurType {
+    margin-top: 4.5rem;
+  }
+}
